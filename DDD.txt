@@ -1,0 +1,21 @@
+Domain:
+
+    Models: Aqui você terá as entidades principais do seu domínio, representando os objetos de negócio.
+    IdentityModels: Se estiver usando o ASP.NET Identity, esta pode ser uma parte dos modelos do seu domínio que representam usuários, papéis, permissões, etc.
+    Interfaces: Interfaces de repositório e outras interfaces necessárias para interações entre domínio e aplicação.
+
+Infrastructure:
+
+    Implementations: Implementações concretas de interfaces definidas na camada de domínio, como repositórios.
+    IdentityContext: Contexto do Entity Framework ou similar para persistência de dados relacionados à identidade.
+    Roles: Se estiver usando ASP.NET Identity, esta pode ser a implementação específica para gerenciamento de funções.
+
+Application:
+    Controllers: Controladores da sua aplicação Web API ou MVC, que coordenam as interações entre a camada de apresentação e a camada de aplicação.
+    Services: Se necessário, você pode ter serviços de aplicação aqui que encapsulam a lógica de negócios mais complexa.
+    UserAuth: Seção específica para a lógica relacionada à autenticação e autorização do usuário.
+
+Presentation:
+
+    Front-End: Interfaces de usuário, páginas HTML, folhas de estilo CSS e scripts JavaScript para a interação do usuário com o sistema. 
+    Aqui pode incluir a lógica de apresentação específica para a interface do usuário, como páginas do MVC ou endpoints de uma API REST.
