@@ -19,3 +19,9 @@ Presentation:
 
     Front-End: Interfaces de usuário, páginas HTML, folhas de estilo CSS e scripts JavaScript para a interação do usuário com o sistema. 
     Aqui pode incluir a lógica de apresentação específica para a interface do usuário, como páginas do MVC ou endpoints de uma API REST.
+
+
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0-preview.2.24128.4
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0-preview.2.24128.4
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.0-preview.2.24128.4
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0-preview.2.24128.4
